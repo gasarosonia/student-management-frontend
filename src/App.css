@@ -1,0 +1,191 @@
+/* General styling for the application container */
+.app-container {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  background: #f4f7f9;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Title styling with modern font and color */
+.app-title {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #4a90e2;
+}
+
+/* Container for the student form with shadows and rounded corners */
+.form-container {
+  max-width: 600px;
+  width: 100%;
+  margin: 20px auto;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Title inside the form */
+.form-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #4a90e2;
+}
+
+/* Form layout with spacing */
+.student-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Styling for form groups */
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Label styling */
+.form-group label {
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #555;
+}
+
+/* Input and select styling */
+.form-group input,
+.form-group select {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Focus state for inputs and selects */
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 8px rgba(74, 144, 226, 0.2);
+}
+
+/* Action buttons container with spacing */
+.form-actions {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+}
+
+/* Base button styling */
+.btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Primary button styling with gradient */
+.btn-primary {
+  background: linear-gradient(135deg, #4a90e2, #007aff);
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #007aff, #4a90e2);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Secondary button styling */
+.btn-secondary {
+  background: #f5f5f5;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+.btn-secondary:hover {
+  background: #e0e0e0;
+}
+
+/* Container for the student list with modern styling */
+.student-list-container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 20px auto;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styling with alternating row colors and hover effects */
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-table th,
+.student-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.student-table th {
+  background-color: #4a90e2;
+  color: white;
+  font-weight: 600;
+}
+
+.student-table tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.student-table tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.student-table tbody tr:hover {
+  background-color: #e8f4f8;
+}
+
+/* No data message styling */
+.no-data {
+  text-align: center;
+  font-size: 18px;
+  color: #7d8c8d;
+  padding: 20px;
+}
+
+/* Action buttons in the student list with styling */
+.action-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.btn-edit {
+  background: linear-gradient(135deg, #4caf50, #45a049);
+  color: white;
+}
+
+.btn-edit:hover {
+  background: linear-gradient(135deg, #45a049, #4caf50);
+}
+
+.btn-delete {
+  background: linear-gradient(135deg, #f44336, #e53935);
+  color: white;
+}
+
+.btn-delete:hover {
+  background: linear-gradient(135deg, #e53935, #f44336);
+}

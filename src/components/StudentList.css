@@ -1,0 +1,107 @@
+/* Container with a soft background color and a subtle shadow */
+.student-list-container {
+    margin: 20px auto;
+    max-width: 1000px;
+    padding: 25px;
+    background-color: #f7f9fc;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    border: 1px solid #e1e4e8;
+  }
+  
+  /* Title with a modern font and enhanced styling */
+  .student-list-title {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 30px;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
+  
+  /* Table styling with a clean look and alternating row colors */
+  .student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+  }
+  
+  .student-table th,
+  .student-table td {
+    padding: 16px 20px;
+    text-align: left;
+    border-bottom: 1px solid #e2e2e2;
+  }
+  
+  .student-table th {
+    background-color: #4a90e2;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
+  
+  .student-table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  .student-table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+  
+  .student-table tbody tr:hover {
+    background-color: #e8f4f8;
+  }
+  
+  /* Styling for no data message */
+  .no-data {
+    text-align: center;
+    font-size: 18px;
+    color: #7d8c8d;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
+  
+  /* Flexbox layout for action buttons with gap */
+  .action-buttons {
+    display: flex;
+    gap: 12px;
+  }
+  
+  /* Base button styles with transition effects */
+  .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  /* Edit button with a calming blue gradient */
+  .btn-edit {
+    background: linear-gradient(135deg, #4a90e2, #007aff);
+    color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-edit:hover {
+    background: linear-gradient(135deg, #007aff, #4a90e2);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Delete button with a vibrant red gradient */
+  .btn-delete {
+    background: linear-gradient(135deg, #e94e77, #d62839);
+    color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-delete:hover {
+    background: linear-gradient(135deg, #d62839, #e94e77);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  

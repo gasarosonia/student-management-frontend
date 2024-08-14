@@ -1,0 +1,98 @@
+.form-container {
+    max-width: 550px;
+    margin: 20px auto;
+    padding: 30px;
+    background: linear-gradient(135deg, #f8f9fd, #eef1f8);
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+  }
+  
+  .form-title {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 25px;
+    color: #444;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .student-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Group label with uppercase and letter-spacing for a cleaner look */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    color: #666;
+    text-transform: uppercase;
+  }
+  
+  /* Custom input styling with slight shadow and focus effects */
+  .form-group input,
+  .form-group select {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    background-color: #fafafa;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus {
+    border-color: #61dafb;
+    box-shadow: 0 0 8px rgba(97, 218, 251, 0.5);
+    background-color: #fff;
+  }
+  
+  /* Enhanced button styles with gradient and subtle hover effects */
+  .form-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Primary button with gradient and hover effect */
+  .btn-primary {
+    background: linear-gradient(135deg, #61dafb, #21a1f1);
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background: linear-gradient(135deg, #21a1f1, #61dafb);
+    transform: translateY(-2px);
+  }
+  
+  /* Secondary button with soft background and shadow effect */
+  .btn-secondary {
+    background-color: #f5f5f5;
+    color: #333;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-secondary:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-2px);
+  }
+  
